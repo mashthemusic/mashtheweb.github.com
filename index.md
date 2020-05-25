@@ -5,21 +5,24 @@ tagline: Web Blog of Mashups!
 ---
 {% include JB/setup %}
 
-Welcome to my simple web blog constructed by Github. So far, it will only some sample posts.
+Welcome to my simple web blog constructed by Github. So far, it will only some posts.
 
-## Some stuff I have done this year
+
+## Some stuff I have done this year in 2020
 
 <p>
-Cultivate London (to be continued) See http://cultivatelondongfn.tumblr.com
+Mash The Music See <a href="http://mashthemusic.github.io/">here</a>
 </p>
+
+## Some stuff I have done this year in 2016
+
 <p>
 Great War Essex. See <a href="http://mashtheweb.github.io/greatwaressex.html">here</a>
 </p>
+
 ## Some Posts
 
 This blog contains some posts as starters!
-
-Here's the sample "posts".
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -27,8 +30,5 @@ Here's the sample "posts".
   {% endfor %}
 </ul>
 
-## To-Do
-
-Get this blog up and running with more posts.
 
 
